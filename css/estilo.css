@@ -23,6 +23,11 @@
     cursor: default;
 }
 
+.highlight-aside {
+    font-size: 18.4px;
+    color: #7cbcf8;
+}
+
 
 /* Containers */
 #container {
