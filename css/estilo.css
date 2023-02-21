@@ -252,10 +252,10 @@
     }
 
     .skills-box {
-        /* background-color: red; */
+        background-color: red;
         flex: 1 1 auto;
         max-width: 100%;
-        margin-right: 2px;
+        margin-right: 9px;
         margin-bottom: 41px;
         text-align: left;
     }    
