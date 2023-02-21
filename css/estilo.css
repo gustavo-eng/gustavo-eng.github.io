@@ -210,6 +210,65 @@
 }
 
 
+/*  Mobile  */
+@media(max-width:450px) {  /* A baixo de 450 pixels, tera estilos diferentes */ 
+    #container {
+        flex-direction: column;
+    }
+
+    #bio-container {
+        min-height: auto;
+        border-right: none;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 30px ;
+        border-bottom: 6px solid var(--main-color);
+        
+    }
+
+    #email-container {
+        display: flex;
+        width: 41vh;
+        /* background-color: red; */
+    }
+
+
+    #bio-container p { 
+        max-width: 60%;
+        margin: 10px auto;
+    }
+
+    #about-container {
+        text-align: center;
+    }
+
+    #about-container .description {
+        margin: 10px auto;
+        max-width: 100%;
+        line-height: 26px;
+    }
+
+    #btn-projects {
+        margin: 23px auto;
+    }
+
+    .skills-box {
+        /* background-color: red; */
+        flex: 1 1 auto;
+        max-width: 100%;
+        margin-right: 2px;
+        margin-bottom: 41px;
+        text-align: left;
+    }    
+
+
+
+}
+
+
+
+
+
+
 
 
 
